@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Currency Converter</h1>
+    <div class="converter">
+      <input type="number" id="amount" placeholder="Enter amount"> 
+      <select id="fromCurrency">
+        <option value="USD">USD - US Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+        <option value="NPR">NPR - Nepali Rupee</option>
+      </select>
+      <select id="toCurrency">
+        <option value="USD">USD - US Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+        <option value="NPR">NPR - Nepali Rupee</option>
+      </select>  <br>
+      <button id="convertBtn">Convert</button>
+    </div>
+    <div class="result">
+      <h3>Converted Amount:</h3>
+      <p id="convertedAmount"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
